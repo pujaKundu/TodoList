@@ -1,0 +1,32 @@
+.flex-box-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 120px;
+}
+
+.flex-todo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul {
+    display: block;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 10px;
+}
+
+.check {
+    background-color: rgb(28, 109, 52);
+    position: absolute;
+    width: 60px;
+    margin-left: 5%;
+    color: white;
+}
